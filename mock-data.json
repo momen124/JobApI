@@ -1,0 +1,68 @@
+{
+    "users": [
+      {
+        "name": "John",
+        "lastName": "Doe",
+        "location": "New York",
+        "email": "john.doe@example.com",
+        "password": "password123"
+      },
+      {
+        "name": "Jane",
+        "lastName": "Smith",
+        "location": "San Francisco",
+        "email": "jane.smith@example.com",
+        "password": "securepass456"
+      },
+      {
+        "name": "Alice",
+        "lastName": "Johnson",
+        "location": "Los Angeles",
+        "email": "alice.johnson@example.com",
+        "password": "alicepass789"
+      }
+    ],
+    "jobs": [
+      {
+        "company": "Tech Corp",
+        "position": "Software Engineer",
+        "status": "interview",
+        "jobType": "full-time",
+        "location": "San Francisco",
+        "createdBy": "60f8a40f7b849f3a88bfb123"
+      },
+      {
+        "company": "Creative Solutions",
+        "position": "Graphic Designer",
+        "status": "pending",
+        "jobType": "part-time",
+        "location": "Los Angeles",
+        "createdBy": "60f8a40f7b849f3a88bfb124"
+      },
+      {
+        "company": "Marketing Inc",
+        "position": "Digital Marketer",
+        "status": "declined",
+        "jobType": "freelance",
+        "location": "New York",
+        "createdBy": "60f8a40f7b849f3a88bfb125"
+      },
+      {
+        "company": "Finance Hub",
+        "position": "Financial Analyst",
+        "status": "pending",
+        "jobType": "full-time",
+        "location": "Chicago",
+        "createdBy": "60f8a40f7b849f3a88bfb126"
+      },
+      {
+        "company": "BuildIt",
+        "position": "Project Manager",
+        "status": "interview",
+        "jobType": "part-time",
+        "location": "Seattle",
+        "createdBy": "60f8a40f7b849f3a88bfb127"
+      }
+    ]
+  }
+  
