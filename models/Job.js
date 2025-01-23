@@ -17,6 +17,15 @@ const JobSchema = new mongoose.Schema(
       enum: ['interview', 'declined', 'pending'],
       default: 'pending',
     },
+    jobType: {
+      type: String,
+      enum: ['full-time', 'part-time', 'freelance'],
+      default: 'full-time',
+    },
+    location: {
+      type: String,
+      default: 'N/A',
+    },
     createdBy: {
       type: mongoose.Types.ObjectId,
       ref: 'User',
