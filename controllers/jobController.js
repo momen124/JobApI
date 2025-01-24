@@ -1,5 +1,5 @@
 const { StatusCodes } = require('http-status-codes');
-const jobService = require('../services/jobService');
+const jobService = require('../service/jobService');
 
 const getAllJobs = async (req, res) => {
   // 1) Parse query & userId

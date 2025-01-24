@@ -1,6 +1,6 @@
 const express = require('express')
 const { createJob, deleteJob, getAllJobs, updateJob, getJob } = require('../controllers/jobController');
-const authMiddleware = require('../middleware/authMiddleware');
+const authMiddleware = require('../middleware/authentication');
 const router = express.Router()
 
 router.route('/').post(createJob).get(getAllJobs)

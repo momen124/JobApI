@@ -1,5 +1,5 @@
 const { StatusCodes } = require('http-status-codes')
-const { registerUser, loginUser } = require('../services/authService')
+const { registerUser, loginUser } = require('../service/authService')
 
 // Register Controller
 const register = async (req, res) => {
